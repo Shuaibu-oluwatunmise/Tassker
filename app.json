@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Tassker",
-    "slug": "Tassker",
+    "name": "Task Master",
+    "slug": "TaskMaster",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/ActualLogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,14 +13,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/ActualLogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.Tassker"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/ActualLogo.png"
     },
     "plugins": [
       "expo-router",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7cc4068b-de2f-4e4e-b4b4-9aec877dd1e0"
+      }
     }
   }
 }
